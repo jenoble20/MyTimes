@@ -3,9 +3,14 @@
 
 .top-nav{
   disp;lay: flex;
-  padding-right: 30px;
-  justify-content: flex-between;
+  justify-content: cemter;
+  padding-right: 90px;
+  background-color: red;
+}
 
+span{
+  display: inline-block;
+  background-color: blue;
 }
 
 
