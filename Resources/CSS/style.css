@@ -1,8 +1,35 @@
-header{
+
+
+
+.top-nav{
+  disp;lay: flex;
+  padding-right: 30px;
+  justify-content: flex-between;
+
+}
+
+
+
+
+#header {
   display: flex;
-  font-family: Verdana;
+  font-family: verdana;
   font-size: 14px;
-  font-weight: bold;
   color: mediumaquamarine;
-  
+  align-items: center;
+  justify-content: flex-end;
+  padding-bottom: 7px;
+  z-index: 2;
+  position: fixed;
+  border-bottom: 1px solid black;
+  width: 100%;
+}
+
+#title{
+  margin-right: auto;
+  padding-left: 10px;:
+}
+
+#logo{
+  padding-left: 20px;
 }
