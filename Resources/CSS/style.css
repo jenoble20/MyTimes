@@ -50,7 +50,7 @@ div{
 .column{
   display: inline-flex;
   flex-direction: column;
-  margin: 0px; 10px;
+  margin: 0px 10px;
 }
 
 .column.large{
@@ -59,6 +59,7 @@ div{
   flex-wrap: wrap;
   align-content: center;
   justify-content: space-between;
+  margin-left: auto;
 }
 
 .column.medium{
@@ -67,6 +68,7 @@ div{
 
 .column.small{
   width: 240px;
+  margin-right: auto;
 }
 
 .headline{
@@ -96,15 +98,15 @@ div{
 
 #main{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding-top: 75px;
-  width: 55%;
   margin: auto;
 }
 
 #main_story{
   font-size:  40px;
   height: 300px;
+  width: 100%;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
 }
 
